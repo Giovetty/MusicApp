@@ -41,4 +41,8 @@ class Song (SongName: String, SongArtist: String, SongYear: Int, SongDuration: S
         Log.v ("Song","$name is your favourite.")
         return true
     }
+    //Added function to display song attributes
+    fun DisplaySong(): String{
+        return "$name - $artist ()$duration"
+    }
 }
